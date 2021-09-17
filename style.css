@@ -1,24 +1,30 @@
 .custom-nav{
     background: #11103f;
 }
-
+.logo{
+    height: 60px;
+    border-radius: 50%;
+}
 header{
-    height: 80vh;
+    height: 90vh;
 }
 .paralax{
-    background-image: url(imges/paralax.png);
+    background-image: url(imges/paralax.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     transform: scale(1.2);
     height: 20vh;
+    width: 100vw;
 }
 .title{
     color: #11103f;
+    text-align: center;
 }
 .custom-card{
     box-shadow: 1px 2px 5px rgb(75, 75, 75);
     border-radius: 12px;
+    animation-delay: 1s;
 }
 .custom-card img{
     height: 100px;
@@ -31,4 +37,23 @@ header{
     border: none;
     border-radius: 8px;
     font-weight: bold;
+}
+/* // price section  */
+#price-section img{
+    height: 80px;
+}
+.small{
+    font-size: 20px;
+}
+.custom-card-1{
+    box-shadow: 1px 2px 10px 0px rgb(94 94 94);
+    border-radius: 12px;
+}
+
+footer i{
+    color: #11103f;
+    transition: all .4s;
+}
+footer i:hover{
+    color:  #6c63ff;
 }
